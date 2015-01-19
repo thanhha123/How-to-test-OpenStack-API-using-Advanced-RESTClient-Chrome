@@ -3,7 +3,7 @@
  Vào web store của chrome, tìm kiếm và cài ứng dụng Advanced RESTClient về cho trình duyệt
  
  
- <img src=http://i.imgur.com/SE9BloY.png width="70%" height="70%" border="1">
+ <img src=http://i.imgur.com/SE9BloY.png width="100%" height="100%" border="1">
 
 Giao diện của ứng dụng như dưới:
 
