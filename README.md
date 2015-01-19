@@ -33,4 +33,12 @@ http://developer.openstack.org/api-ref-identity-v2.html
 ```
 <img src=http://i.imgur.com/ysVBi2V.png width="60%" height="60%" border="1">
 
+Sử dụng Advanced REST Client lấy token:
+
+<img src=http://i.imgur.com/7Dvl3Fs.png width="60%" height="60%" border="1">
+
+1. URL( ô số 1) gồm có địa chỉ của controller, port keystone service và
+
+
+
 
