@@ -46,7 +46,7 @@ Sử dụng Advanced REST Client lấy token:
         "tenantName": "admin",
         "passwordCredentials": {
             "username": "admin",
-            "password": "Welcome123"
+            "password": "password123"
         }
     }
 }
@@ -54,6 +54,12 @@ Sử dụng Advanced REST Client lấy token:
 4. Thiết lập Set "Content-Type" header
 5. Gửi yêu cầu
 
+Phản hồi về 400 hoặc 401 HTTP có nghĩa là request sai URL hoặc data sai định dạng, phản hồi 200 HTTP là xác thực thành công và trả về file json chứa các thông tin các service của dịch vụ và token của user admin
 
+<img src=http://i.imgur.com/iyv7zjJ.png width="60%" height="60%" border="1">
+
+Ta sẽ lấy token này để xác thực khi sử dụng các dịch vụ khác với các service khác trong OpenStack
+
+###Bước 2: Tương tác với các Indentyfy API trong OpenStack
 
 
