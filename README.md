@@ -6,7 +6,9 @@
  <img src=http://i.imgur.com/SE9BloY.png width="60%" height="60%" border="1">
 
 Giao diện của ứng dụng như dưới:
+
 <img src=http://i.imgur.com/ACRfcit.png width="60%" height="60%" border="1">
+
 
 1. Advanced RESTClient hỗ trợ các giao thức GET, POST, PUT, PATCH, DELETE, HEAD
 2. Chèn thêm header cho yêu cầu, có thể chèn theo raw hoặc theo form
@@ -20,3 +22,7 @@ Openstack gồm có Block Storage API, Compute API, Data service API, Compute AP
 ```sh
 http://developer.openstack.org/api-ref.html
 ```
+
+Dưới đây mình sẽ thực hiện sử dụng ứng dụng Advanced REST Client giao tiếp với Indentify API
+
+###Bước 1: Xác thực hệ thống
