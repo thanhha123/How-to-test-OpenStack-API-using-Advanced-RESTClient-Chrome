@@ -60,7 +60,7 @@ Phản hồi về 400 hoặc 401 HTTP có nghĩa là request sai URL hoặc data
 
 Ta sẽ lấy token này để xác thực khi sử dụng các dịch vụ khác với các service khác trong OpenStack
 
-###Bước 2: Tương tác với các Indentyfy API trong OpenStack
+###Bước 2: Tương tác với các Indentify API trong OpenStack
 
 #### Show list tenant
 
