@@ -37,7 +37,22 @@ Sử dụng Advanced REST Client lấy token:
 
 <img src=http://i.imgur.com/7Dvl3Fs.png width="60%" height="60%" border="1">
 
-1. URL( ô số 1) gồm có địa chỉ của controller, port keystone service và
+1. URL( ô số 1) gồm có địa chỉ của controller, port keystone service và API version 2.0
+2. Yêu cầu sử dụng giao thức POST( ô số 2)
+3. Chèn data gồm có username, password, tenant name
+```sh
+{
+    "auth": {
+        "tenantName": "admin",
+        "passwordCredentials": {
+            "username": "admin",
+            "password": "Welcome123"
+        }
+    }
+}
+```
+4. Thiết lập Set "Content-Type" header
+5. Gửi yêu cầu
 
 
 
